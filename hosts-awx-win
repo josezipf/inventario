@@ -1,9 +1,7 @@
 [windows]
-192.168.4.14
+srvwindows ansible_host=192.168.4.14
 
 [windows:vars]
-ansible_user=Administrator
-ansible_password=Noto@2018mudar
 ansible_connection=winrm
 ansible_port=5986
 ansible_winrm_server_cert_validation=ignore
