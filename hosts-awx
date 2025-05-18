@@ -1,7 +1,7 @@
 [local]
-192.168.4.13
+srvautomation ansible_host=192.168.4.13
 
 [linux]
-192.168.4.10
-192.168.4.11
-192.168.4.12
+srvcoletor   ansible_host=192.168.4.10
+srvweb       ansible_host=192.168.4.11
+srvbanco     ansible_host=192.168.4.12
